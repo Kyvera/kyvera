@@ -1,0 +1,5 @@
+use italian
+
+variabile nome -> "Iretiola"
+stampa(nome)
+stampa 5 + 4
