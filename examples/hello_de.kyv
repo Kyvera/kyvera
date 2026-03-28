@@ -1,8 +1,15 @@
 use german
 
+<<<<<<< HEAD
 zahl heiβt -> "Iretiola"
 ausgabe(heiβt)
 ausgabe 5 > 1
 ausgabe(2 > 1 > 1)
 
 
+=======
+zahl heißt -> "Iretiola"
+ausgabe(heißt)
+ausgabe 5 > 1
+ausgabe(2 > 1 > 1)
+>>>>>>> c5d6ec72ac4d610ae9c4d4cf698623e5828b36f8

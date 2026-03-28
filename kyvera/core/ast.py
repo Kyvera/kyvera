@@ -10,8 +10,8 @@ class VariableNode:
 
 
 class PrintNode:
-    def __init__(self, expression):
-        self.expression = expression
+    def __init__(self, value):
+        self.value = value
 
 
 class NumberNode:
@@ -22,6 +22,7 @@ class NumberNode:
 class StringNode:
     def __init__(self, value):
         self.value = value
+<<<<<<< HEAD
 
 
 class BinOpNode:
@@ -29,6 +30,8 @@ class BinOpNode:
         self.left = left
         self.operator = operator
         self.right = right
+=======
+>>>>>>> c5d6ec72ac4d610ae9c4d4cf698623e5828b36f8
 
 
 class VarAccessNode:
@@ -36,6 +39,7 @@ class VarAccessNode:
         self.name = name
 
 
+<<<<<<< HEAD
 class IfNode:
     def __init__(self, condition, body, else_body=None):
         self.condition = condition
@@ -49,3 +53,10 @@ class UnaryOpNode:
         self.operator = operator
         self.node = node
 
+=======
+class BinOpNode:
+    def __init__(self, left, op, right):
+        self.left = left
+        self.op = op
+        self.right = right
+>>>>>>> c5d6ec72ac4d610ae9c4d4cf698623e5828b36f8

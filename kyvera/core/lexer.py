@@ -30,7 +30,11 @@ class Lexer:
             line = raw_line.strip()
 
             # Token pattern that correctly captures strings
+<<<<<<< HEAD
             token_pattern = r'"[^"]*"|\d+|==|!=|>=|<=|->|\+|\-|\*|\/|>|<|\(|\)|:|,|[A-Za-z_]\w*'
+=======
+            token_pattern = r'"[^"]*"|\d+|==|!=|>=|<=|->|>|<|\(|\)|:|[A-Za-z_]\w*'
+>>>>>>> c5d6ec72ac4d610ae9c4d4cf698623e5828b36f8
 
             parts = re.findall(token_pattern, line)
 
