@@ -81,7 +81,6 @@ class Interpreter:
                 return left <= right
             elif node.operator == "and":
                 return left and right
-<<<<<<< HEAD
             elif node.operator == "or":
                 return left or right
 
@@ -90,7 +89,6 @@ class Interpreter:
             return self.language["TRUE"] if node else self.language["FALSE"]
 
         raise Exception(f"Cannot evaluate node: {type(node).__name__}")
-=======
 
         raise Exception(f"Cannot evaluate node: {type(node).__name__}")
->>>>>>> c5d6ec72ac4d610ae9c4d4cf698623e5828b36f8
+
